@@ -98,7 +98,7 @@ Permissions:
     default: "negativity.ban"
     custom: "MOD,ADMIN"
   bypass:
-    active: false
+    active: true
     all:
       default: "negativity.bypass.all"
       custom: "ADMIN"
@@ -182,7 +182,7 @@ Translation:
 # You can put this plugin on your Bungeecord/Waterfall !
 # Why ? You can know when a player hack even if you're not on the same spigot's server !
 # 
-hasBungeecord: false
+hasBungeecord: true
 
 # The time between 2 /report
 # in millisecondes
